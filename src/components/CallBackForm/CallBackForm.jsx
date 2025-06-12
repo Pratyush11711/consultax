@@ -1,5 +1,5 @@
 
-import "./CallbackForm.css";
+import "./CallBackForm.css";
 
 const CallbackForm = () => {
   return (
