@@ -1,0 +1,74 @@
+.callback-section {
+  background-color: #003b7a;
+  color: white;
+  padding: 80px 20px;
+}
+
+.callback-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.callback-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.callback-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.callback-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.callback-form {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 280px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.callback-form input,
+.callback-form select {
+  flex: 1;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  min-width: 240px;
+}
+
+.callback-form button {
+  width: 160px;
+  padding: 14px;
+  background-color: #f26522;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.callback-form button:hover {
+  background-color: #d55312;
+}

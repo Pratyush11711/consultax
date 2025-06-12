@@ -1,0 +1,44 @@
+
+.hero-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding:  20px;
+  background: #fff;
+  z-index: 100;
+  
+
+}
+
+.hero-box {
+  background: white;
+  border-radius: 8px;
+  padding: 30px 24px;
+  width: 250px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.hero-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-box .icon {
+  margin-bottom: 16px;
+}
+
+.hero-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.hero-box p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}

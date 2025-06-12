@@ -1,0 +1,45 @@
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  background-color: #002c60;
+  padding: 8px 20px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+.top-sub-container{
+  width: 80%;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover svg {
+  color: orange;
+  transition: 1000ms;
+  
+}
+
+.hours {
+  flex: 1;
+  text-align: right;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .top-container {
+    display: none;
+  }
+}

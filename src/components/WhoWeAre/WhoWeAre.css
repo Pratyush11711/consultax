@@ -1,0 +1,76 @@
+.who-we-are {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.who-image {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.who-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.who-content {
+  flex: 1 1 50%;
+  background-color: #003b7a;
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content .subheading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.who-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.who-content .description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.signature img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.signature h4 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.signature p {
+  margin: 0;
+  font-size: 14px;
+  color: #e0e0e0;
+}
