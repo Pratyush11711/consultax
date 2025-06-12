@@ -25,7 +25,7 @@ function App() {
   <WhoWeAre/>
   <Services/>
   <Project/>
-  <CallBackFormnpm/>
+  <CallBackForm/>
   <BlogSection/>
   <FAQAccordion/>
   <Client/>
