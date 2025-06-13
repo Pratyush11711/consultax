@@ -79,6 +79,21 @@
 .image-content img {
   max-width: 100%;
   height: auto;
+
+}
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.image-wrapper img {
+  width: auto;
+  max-height: 500px; /* Optional fixed max height */
+  transform: scale(1.2);
+  margin-bottom: -50px;
 }
 
 /* Arrows */
@@ -103,6 +118,11 @@
   right: 20px;
 }
 @media (max-width: 768px) {
+  .image-content {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
   .image-content {
     display: none;
   }

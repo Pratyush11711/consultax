@@ -75,7 +75,9 @@ export default function SimpleSlider() {
                 </button>
               </div>
               <div className="image-content">
-                <img src={slide.image} alt={slide.alt} />
+                <div className="image-wrapper">
+                  <img className="person-img" src={slide.image} alt={slide.alt} />
+                </div>
               </div>
             </div>
           </div>

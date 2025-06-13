@@ -6,7 +6,7 @@ const Mainheader = () => {
       <div className="main-head-cont">
         <div className="left-section">
           <div className="logo-section">
-           <a href="https://www.worldfinancialgroup.com/"> <img src="/logo-wfg.svg" alt="logo" /></a>
+           <a href="https://www.worldfinancialgroup.com/"> <img src="/logos/svg330.svg" alt="logo" /></a>
           </div>
           <div className="address-section">
             <span>Address:</span>
