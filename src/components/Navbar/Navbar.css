@@ -191,7 +191,9 @@
   }
 
   .menu-icon {
-    display: block;
+    display: flex;
+    height: 40px;
+    align-items: center;
   }
   .navbar-icons{
     display: none;
