@@ -1,5 +1,5 @@
 import "./Topbar.css";
-import { Facebook, Twitter, Linkedin } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Topbar = () => {
   return (
@@ -9,8 +9,12 @@ const Topbar = () => {
         <div className="icon"><Twitter size={20} /></div>
         <div className="icon"><Facebook size={20} /></div>
         <div className="icon"><Linkedin size={20} /></div>
+        <div className="icon"><Instagram size={20} /></div>
+        <div className="icon"><Youtube size={20} /></div>
+
+
         <div className="hours">
-          <p>Opening Hours: Monday to Saturday - 8am to 9pm</p>
+          <p>Office Hours: Monday to Friday: 9 AM to 5 PM · Saturday to Sunday: Closed</p>
         </div>
       </div>
       </div>

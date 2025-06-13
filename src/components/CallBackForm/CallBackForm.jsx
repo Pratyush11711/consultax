@@ -1,38 +1,36 @@
 
 import "./CallBackForm.css";
 
-const CallbackForm = () => {
+const CallBackForm = () => {
   return (
-    <section className="callback-section">
+    <section className="callback-section" id="callback">
+              <h2 className="head">Brochure</h2>
       <div className="callback-container">
+
         <div className="callback-text">
           <h2>
-            Request a Free <br /> Call Back
+           Download Indexed  <br /> Universal Life
           </h2>
           <p>
-            Provide discussion information and we’ll get back to <br />
-            you as soon as possible
+          A guide to help you understand the features and benefits of Indexed Universal Life (IUL) insurance, including interest-rate caps, guaranteed minimum interest rates, fee structures, and tax advantages and the complexities of this type of insurance.
           </p>
         </div>
 
         <form className="callback-form">
           <div className="form-row">
-            <input type="text" placeholder="Your Name" />
-            <select>
-              <option>Audit & Assurance</option>
-              <option>Finance</option>
-              <option>Tax</option>
-            </select>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+
           </div>
           <div className="form-row">
             <input type="email" placeholder="Email Address" />
             <input type="tel" placeholder="Phone Number" />
           </div>
-          <button type="submit">SUBMIT</button>
+          <button type="submit">Download Now</button>
         </form>
       </div>
     </section>
   );
 };
 
-export default CallbackForm;
+export default CallBackForm;

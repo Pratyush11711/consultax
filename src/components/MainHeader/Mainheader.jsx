@@ -2,23 +2,25 @@ import "./Mainheader.css";
 
 const Mainheader = () => {
   return (
-<div className="main-header">
-  <div className="main-head-cont">
-    <div className="left-section">
-      <div className="logo-section">
-        <img src="/logo-white.svg" alt="logo" />
-      </div>
-      <div className="address-section">
-        <span>Address:</span>
-        <p>121 King Street<br />Melbourne Victoria 3000 Australia</p>
+    <div className="main-header">
+      <div className="main-head-cont">
+        <div className="left-section">
+          <div className="logo-section">
+           <a href="https://www.worldfinancialgroup.com/"> <img src="/logo-wfg.svg" alt="logo" /></a>
+          </div>
+          <div className="address-section">
+            <span>Address:</span>
+            <p>One Park Plaza, Suite 600
+              <br />Irvine, CA 92614
+            </p>
+          </div>
+        </div>
+        <div className="call-section">
+          <span>Office call:</span>
+          <h2>(949) 438-0484</h2>
+        </div>
       </div>
     </div>
-    <div className="call-section">
-      <span>Free call:</span>
-      <h2>(917) 814 - 3527</h2>
-    </div>
-  </div>
-</div>
 
   );
 };

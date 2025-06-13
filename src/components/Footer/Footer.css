@@ -191,6 +191,11 @@ height: 100px;
   cursor: pointer;
   transition: color 0.3s;
 }
+.footer-bottom{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 
 .footer-bottom-links a:hover {
   color: #f26522;
@@ -214,7 +219,10 @@ height: 100px;
   background: #f26522;
   color: white;
 }
-
+.footer-links.license li:hover {
+  color: #d2e1f0; 
+  cursor: default; 
+}
 /* Responsive */
 @media (max-width: 768px) {
   .footer-container {

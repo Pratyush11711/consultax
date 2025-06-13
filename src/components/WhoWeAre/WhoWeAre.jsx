@@ -9,16 +9,14 @@ const WhoWeAre = () => {
       </div>
       <div className="who-content">
         <p className="subheading">WHO WE ARE</p>
-        <h2>Our Mission,<br />Values and Motto</h2>
+        <h2>About Dan & WFG <br />Philosophy</h2>
         <p className="description">
-          A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a
-          massive sandstorm slammed into the Chinese capital bringing the latest
-          airpocalypse to this smog-choked city.
+         I’m Dan Whitson, a dedicated World Financial Group financial professional licensed in the United States, the Virgin Islands, Puerto Rico, and Canada. My mission is to empower individuals and families no matter their background to build lasting financial resilience through life-insurance strategies and entrepreneurial opportunity.
         </p>
         <div className="signature">
-          <img src="/sign1.png" alt="Signature" />
+       
           <div>
-            <h4>James Patterson</h4>
+            <h4>Dan Whitson</h4>
             <p>Founder & CEO</p>
           </div>
         </div>

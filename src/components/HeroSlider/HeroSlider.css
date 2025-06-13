@@ -7,7 +7,10 @@
 }
 
 .slide {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
+  background-image: url("/slide-home1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 100px 40px;
   display: flex;
   justify-content: center;
@@ -48,6 +51,7 @@
   color: #333;
   margin-bottom: 30px;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 .quote-btn {
@@ -97,4 +101,9 @@
 
 .arrow.next {
   right: 20px;
+}
+@media (max-width: 768px) {
+  .image-content {
+    display: none;
+  }
 }

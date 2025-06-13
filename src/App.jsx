@@ -24,9 +24,9 @@ function App() {
   <HeroBox/>
   <WhoWeAre/>
   <Services/>
-  <Project/>
+  {/* <Project/> */}
   <CallBackForm/>
-  <BlogSection/>
+  {/* <BlogSection/> */}
   <FAQAccordion/>
   <Client/>
   <Footer/>

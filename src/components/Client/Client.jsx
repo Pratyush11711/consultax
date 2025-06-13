@@ -1,4 +1,4 @@
-import React from "react";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,14 +10,14 @@ const testimonials = [
     city: "Hanoi",
     img: "https://randomuser.me/api/portraits/women/1.jpg",
     stars: 4.5,
-    text: "I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. Thank you !"
+    text: "Dan helped me secure my family’s future with an affordable life-insurance plan."
   },
   {
     name: "Nora Roberts",
     city: "Paris",
     img: "https://randomuser.me/api/portraits/men/32.jpg",
     stars: 4.5,
-    text: "I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    text: "Thanks to Dan’s guidance, I launched my WFG business and hit my first $5,000 month within six months."
   },
   {
     name: "John Doe",

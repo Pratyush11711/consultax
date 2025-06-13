@@ -5,23 +5,23 @@ import { Medal, Lightbulb, Wallet, Headphones } from "lucide-react";
 const features = [
   {
     icon: <Medal size={36} color="#f26522" />,
-    title: "Quality Services",
-    description: "Conubia ut aliquam cub gravida sed morbi accumsа.",
+    title: "Customized Planning",
+    description: "Tailored approach to retirement & wealth goals, wherever you are in life",
   },
   {
     icon: <Lightbulb size={36} color="#f26522" />,
-    title: "Valuable Ideas",
-    description: "Ante pharetra posuere blandit aliquam fusce sollicitudin.",
+    title: "Inclusive & Diverse",
+    description: "Making financial independence possible for all backgrounds & communities",
   },
   {
     icon: <Wallet size={36} color="#f26522" />,
-    title: "Budget Friendly",
-    description: "Lacinia nisl accumsа sceleris phasellus venenatis don,",
+    title: "Turnkey Business Model",
+    description: "Step-by-step support for entrepreneurial-minded individuals",
   },
   {
     icon: <Headphones size={36} color="#f26522" />,
-    title: "Suport 24/7",
-    description: "Etiam sollicitudin sagittis justo at ullamcorper potenti.",
+    title: "Experienced Leadership",
+    description: "Decades of industry expertise guiding your financial journey",
   },
 ];
 

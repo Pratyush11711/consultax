@@ -55,7 +55,13 @@
   color: #333;
   min-width: 240px;
 }
-
+.head {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+ padding-bottom: 20px;
+  color: white;
+}
 .callback-form button {
   width: 160px;
   padding: 14px;
