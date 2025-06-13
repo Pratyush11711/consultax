@@ -24,7 +24,7 @@ const Navbar = () => {
 
       <nav className="navbar">
         <div className="nav-logo">
-          <img src="/logo-white.svg" alt="Logo" />
+          <img src="/logo-wfg.svg" alt="Logo" />
         </div>
 
         <div className="menu-icon" onClick={toggleMobileMenu}>
