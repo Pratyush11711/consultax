@@ -5,7 +5,7 @@ const WhoWeAre = () => {
   return (
     <section className="who-we-are">
       <div className="who-image">
-        <img src="/bgimg/bg-home1.jpg" alt="Handshake" />
+        <img src="/image.png" alt="Handshake" />
       </div>
       <div className="who-content">
         <p className="subheading">WHO WE ARE</p>
